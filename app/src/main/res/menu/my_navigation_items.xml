@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_info"
+        android:title="@string/menu_details" />
+    <item
+        android:id="@+id/action_gallery"
+        android:icon="@drawable/ic_gallery"
+        android:title="@string/menu_gallery" />
+    <!--<item-->
+        <!--android:id="@+id/action_booking"-->
+        <!--android:icon="@drawable/ic_booking"-->
+        <!--android:title="@string/menu_booking" />-->
+
+
+    <item
+        android:id="@+id/action_offer"
+        android:icon="@drawable/ic_review"
+        android:title="@string/menu_offers" />
+</menu>

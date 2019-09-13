@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="profileViewModel"
+            type="com.demomvvm.school.mvvm.profile.ProfileViewModel" />
+    </data>
+
+
+
+    <LinearLayout
+        android:id="@+id/activity_llmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_profile"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fillViewport="true"
+            android:gravity="center">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:src="@drawable/ic_app_icon_new" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etFirstName"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_first_name"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etLastName"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_last_name"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etEmail"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/str_email"
+                        android:enabled="false"
+                        android:inputType="textWebEmailAddress"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/fragment_profile_etMobile"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/mobile"
+                        android:inputType="phone"
+                        app:font_name="Roboto-Light.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomTextView
+                        android:id="@+id/fragment_profile_tvSubmit"
+                        style="@style/textStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@drawable/backgound_button"
+                        android:onClick="@{profileViewModel::onClickSubmit}"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        app:font_name="RobotoMedium.ttf" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</layout>

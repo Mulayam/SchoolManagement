@@ -1,0 +1,351 @@
+<resources>
+
+    <!-- Project name -->
+    <string name="app_name_new">"ई कॉमर्स स्टोर"</string>
+    <string name="settings">"सेटिंग्स"</string>
+    <string name="check_connection">"अपना नेटवर्क कनेक्शन जांचें"</string>
+
+    <!-- Sign up /Register  -->
+    <string name="log_in">"लॉग इन करें"</string>
+    <string name="sign_up">"साइन अप करें"</string>
+
+
+    <string name="email">"ईमेल"</string>
+    <string name="password">"पारण शब्द"</string>
+    <string name="showpassword">"शो पासवर्ड"</string>
+    <string name="confirm_password">"पासवर्ड की पुष्टि कीजिये"</string>
+    <string name="phone">"फ़ोन"</string>
+    <string name="forgot_password">"पासवर्ड भूल गए?"</string>
+    <string name="forgot_pswd">"पासवर्ड भूल गए"</string>
+    <string name="submit">"जमा करें"</string>
+
+
+    <!-- Validation Strings  -->
+    <string name="val_enter_password">"कृप्या पास्वर्ड भरो।"</string>
+    <string name="val_enter_password_not_match">"पासवर्ड और कन्फर्म पासवर्ड मेल नहीं खाते।"</string>
+    <string name="val_enter_cnfpassword">"कृपया पुष्टि पासवर्ड दर्ज करें।"</string>
+    <string name="val_password_greter_six">"पासवर्ड में 6 या अधिक वर्ण होने चाहिए"</string>
+    <string name="val_enter_email">"कृपया ईमेल पता दर्ज करें।"</string>
+    <string name="val_enter_username">"कृपया उपयोगकर्ता नाम दर्ज करें।"</string>
+    <string name="val_enter_valid_email">"कृपया मान्य ईमेल पता दर्ज करें।"</string>
+
+
+    <!-- product detail & Add address string-->
+    <string name="address_line_1">"पंक्ति 1"</string>
+    <string name="nav_menu_notification">"अधिसूचना"</string>
+    <string name="nav_my_account">"मेरा खाता"</string>
+
+    <!--All lable-->
+
+    <string name="your_cart_is_empty">"आपकी गाड़ी खाली है!"</string>
+    <string name="pincode">"पिन कोड*"</string>
+    <string name="dolar">"$"</string>
+    <string name="enter_your_email">"अपना ईमेल दर्ज करें"</string>
+    <string name="enter_your_registerd_email">"अपना पंजीकृत ईमेल दर्ज करें।"</string>
+    <string name="enter_your_phone">"अपना फ़ोन दर्ज करें"</string>
+    <string name="enter_your_secure_password">"अपना सुरक्षित पासवर्ड डालें।"</string>
+
+    <string name="join_with">"इसमें शामिल हो जाएं"</string>
+    <string name="facebook">"फेसबुक"</string>
+    <string name="twitter">"ट्विटर"</string>
+    <string name="first_name">"पहला नाम"</string>
+    <string name="last_name">"अंतिम नाम"</string>
+    <string name="enter_last_name">"अंतिम नाम दर्ज करो"</string>
+    <string name="enter_first_name">"पहला नाम डालो"</string>
+
+    <string name="google">"गूगल"</string>
+    <string name="categories">"श्रेणियाँ"</string>
+    <string name="my_wishlist">"मेरी इच्छा सूची"</string>
+
+    <string name="enter_your_registered_email_below_we_ll_send_you_reset_link_via_email">"नीचे अपना पंजीकृत ईमेल दर्ज करें, \ n हम आपको ईमेल के माध्यम से RESET लिंक भेजेंगे।"</string>
+    <string name="cancel">"रद्द करना"</string>
+    <string name="change_password">"चेंज \ nPassword"</string>
+    <string name="current_password">"वर्तमान पासवर्ड"</string>
+    <string name="enter_current_password">"वर्तमान पासवर्ड डालें"</string>
+    <string name="enter_city_name">"शहर का नाम दर्ज करें"</string>
+    <string name="enter_new_password">"नया पासवर्ड दर्ज करें"</string>
+    <string name="enter_confirm_password">"नया पासवर्ड पुनः दर्ज करें"</string>
+    <string name="enter_gender">"लिंग दर्ज करें"</string>
+    <string name="new_password">"नया पासवर्ड"</string>
+    <string name="add_new_address">"नया पता जोड़ें"</string>
+    <string name="use_my_current_location">"मेरे वर्तमान स्थान का उपयोग करें"</string>
+    <string name="flat_no_building_name">"फ्लैट नं।, भवन का नाम *"</string>
+    <string name="locality_area_or_street">"इलाका, इलाका या गली *"</string>
+    <string name="city">"शहर *"</string>
+    <string name="city_new">"शहर"</string>
+    <string name="area_code">"एरिया कोड *"</string>
+    <string name="state">"राज्य *"</string>
+    <string name="state_new">"राज्य"</string>
+    <string name="enter_state_name">"राज्य का नाम दर्ज करें"</string>
+    <string name="save">"बचाना"</string>
+    <string name="change">"परिवर्तन"</string>
+    <string name="addresses">"पतों"</string>
+    <string name="clear_history">"Clear \ nHistory"</string>
+    <string name="deactivate_account">"खाता निष्क्रिय करें"</string>
+    <string name="gender">"लिंग"</string>
+    <string name="details">"विवरण"</string>
+    <string name="search_hint">"किसी भी संबंधित फैशन के लिए खोजें"</string>
+    <string name="location_area">"स्थान / क्षेत्र पिनकोड"</string>
+    <string name="enter_pincode">"कृपया पिनकोड दर्ज करें।"</string>
+    <string name="this_includes">"यह भी शामिल है:"</string>
+    <string name="search_history">"इतिहास खोजें"</string>
+    <string name="order_history">"आदेश इतिहास"</string>
+    <string name="clear_all">"सभी साफ करें"</string>
+    <string name="confirm">"की पुष्टि करें"</string>
+
+    <!--Cartlist & Payment & Filter & Order history setting & help & privacy policy lables-->
+    <string name="delivery_address">"डिलिवरी का पता"</string>
+    <string name="payment_method">"भुगतान का तरीका"</string>
+    <string name="wallet_upi">"UPI"</string>
+    <string name="net_banking">"नेट बैंकिंग"</string>
+    <string name="credit_debit_atm_card">"क्रेडिट / डेबिट / एटीएम कार्ड"</string>
+    <string name="cash_on_delivery">"डिलवरी पर नकदी"</string>
+
+    <string name="filter_sorting">"फ़िल्टर / छाँटना"</string>
+    <string name="clear">"स्पष्ट"</string>
+    <string name="sort">"तरह"</string>
+    <string name="filter">"फ़िल्टर"</string>
+    <string name="Price">"मूल्य"</string>
+    <string name="select_offer">"प्रस्ताव का चयन करें"</string>
+    <string name="deactive_account">"खाता निष्क्रिय करें"</string>
+
+
+    <string name="temp_380005">"380015"</string>
+    <string name="best_value">"सबसे अच्छा मूल्य"</string>
+
+    <string name="apply">"लागू करें"</string>
+    <string name="discount">"छूट"</string>
+    <string name="or_less">"या कम"</string>
+
+    <string name="per">"%"</string>
+    <string name="available_for_this_location">"इस स्थान के लिए उपलब्ध है"</string>
+    <string name="email_us">"हमे ईमेल करे"</string>
+    <string name="about_us">"हमारे बारे में"</string>
+    <string name="send_feedback">"प्रतिक्रिया भेजें"</string>
+    <string name="contact_us">"हमसे संपर्क करें"</string>
+    <string name="terms_use">"उपयोग की शर्तें"</string>
+    <string name="terms_off_use">"उपयोग बंद शर्तें"</string>
+    <string name="type_of_feedback">"प्रतिक्रिया का प्रकार"</string>
+    <string name="feedback">"प्रतिक्रिया"</string>
+    <string name="complaint">"शिकायत"</string>
+    <string name="description">"विवरण"</string>
+    <string name="send">"भेजना"</string>
+    <string name="enter_description">"विवरण दर्ज करें"</string>
+    <string name="legal">"कानूनी"</string>
+    <string name="privacy_policy">"गोपनीयता नीति"</string>
+
+
+    <string name="buy_more_save_more">"अधिक खरीदें, अधिक सहेजें"</string>
+    <string name="lowest">"सबसे कम"</string>
+    <string name="price">"मूल्य"</string>
+
+    <string name="fashion">"फैशन"</string>
+    <string name="store">"दुकान"</string>
+    <string name="trending">"रुझान"</string>
+    <string name="view_all">"सभी को देखें"</string>
+    <string name="new_arriaval">"नवीन अरियावल"</string>
+    <string name="women_s">"महिलाएं"</string>
+    <string name="clothing_style">"&lt;! [CDATA [वस्त्र और शैली]"</string>
+    <string name="add_to_wishlist">"इच्छा सूचि में डालें"</string>
+    <string name="add_to_bag">"झोले में डालो"</string>
+    <string name="color">"रंग"</string>
+    <string name="size">"आकार"</string>
+    <string name="ratting_reviews">"&lt;! [CDATA [रैटिंग और समीक्षा"</string>
+    <string name="sellar_details">"विक्रेता विवरण"</string>
+    <string name="loren_inpun">"लोरम इप्सम डोलर अमेट, फेलिस एरोस एटिअम एरोस फेसेलस मोलेस्टी, लेक्टस urna pellentesque vivamus ut, ac sem lorem posuere vivamus, non ut astad ut mauris, suscipit kodo ornare odio। नयतितितुबस दरोल। डिक्टम यूआर मोलिस क्विस एगेट वेनेटिस। फेसेलस टैक्टी एलीमेंट डोनेक एसी आर्कु लक्टस, एक्सीमसन मालसुआडा, पार्टिकुलर एचसी मौरिस सेड सेरेसिसी, लियोरो क्विस करैबिटुर डिस, लिगुला ओरसी एनिम प्रोम एमेट। सेड अल्ट्रक्टिस ओडिओ नॉनमी। मैग्ना इगेट मोलेस्टी फैसिलिसिस लाइबोडी नॉन, इप्सुम सेम फ्रिंगिला मैग्ना क्विस मेटस, नाम यूटी निस्ले, वल्पुटेट लॉबोर्टिस यूटी।"</string>
+    <string name="a1_fashion_store">"ए 1 फैशन स्टोर"</string>
+    <string name="delivery_by_17_jan_thursday">"17 जनवरी तक डिलीवरी, गुरुवार को उपलब्ध डिलीवरी पर \ ncash।"</string>
+    <string name="rattings">"Rattings"</string>
+    <string name="_75_reviews">"75 समीक्षा"</string>
+    <string name="similar_products">"इसी तरह के उत्पादों"</string>
+    <string name="checkout">"चेक आउट"</string>
+    <string name="kg">"किलोग्राम"</string>
+    <string name="your_bag">"आपका बैग"</string>
+    <string name="hello">"नमस्ते"</string>
+    <string name="guest">"अतिथि"</string>
+    <string name="Emily">"एमिली"</string>
+    <string name="sign_in">"दाखिल करना"</string>
+    <string name="sign_out">"साइन आउट"</string>
+    <string name="view_my_order">"मेरा आदेश देखें"</string>
+    <string name="locat_all_stores">"सभी दुकानों का पता लगाएँ"</string>
+    <string name="change_language">"भाषा बदलो"</string>
+    <string name="get_support">"सहायता प्राप्त करें"</string>
+    <string name="open">"खुला"</string>
+    <string name="order_no">"आदेश संख्या :"</string>
+    <string name="item">"आइटम:"</string>
+    <string name="biil">"Biil:"</string>
+    <string name="in_progress">"चालू"</string>
+    <string name="view">"राय"</string>
+    <string name="my_order">"मेरा आदेश"</string>
+    <string name="userName">"उपयोगकर्ता नाम"</string>
+    <string name="first_last_name">"&lt;! [CDATA [आपका पहला और अंतिम नाम"</string>
+    <string name="enter_your_email_address">"अपना ईमेल पता दर्ज करें।"</string>
+    <string name="create_strong_password">"एक मजबूत पासवर्ड बनाएं।"</string>
+    <string name="repeat_password">"अपना पासवर्ड दोहराएं।"</string>
+    <string name="by_singingup_Agrred">"साइन अप करके आप हमारे लिए सहमत हुए हैं"</string>
+    <string name="terms_off_use_privacy_policy">"&lt;! [CDATA [उपयोग और गोपनीयता नीति की शर्तें"</string>
+    <string name="continues">"जारी रहना"</string>
+    <string name="the_style_you_love">"\ nstyle \ nyou \ nlove"</string>
+    <string name="clothing">"कपड़ा"</string>
+    <string name="let_the_colors_define_you">"आज्ञा देना \ ncolors \ ndefine \ nyou"</string>
+    <string name="beauty_care">"&lt;! [CDATA [सौंदर्य और देखभाल"</string>
+    <string name="keep_calm_stay_classy">"&lt;! [CDATA [Keep \ ncalm \ n &amp; stay \ nclassy]"</string>
+    <string name="home_living">"&lt;! [CDATA [होम एंड लिविंग"</string>
+    <string name="not_just_fashion_but_design">"सिर्फ \ nfashion \ n बटन \ n नहीं है"</string>
+    <string name="gadgets">"गैजेट्स"</string>
+    <string name="let_s_get_started">"आएँ शुरू करें"</string>
+    <string name="edit">"संपादित करें"</string>
+    <string name="emily_hunt">"एमिली हंट"</string>
+    <string name="new_yorl_usa">"न्यू यॉर्क \ NUSA"</string>
+    <string name="add_manage">"जोड़ें / प्रबंधित"</string>
+    <string name="all_store">"सभी स्टोर"</string>
+    <string name="support">"समर्थन"</string>
+    <string name="send_your_feedback">"अपनी प्रतिक्रिया भेजें"</string>
+    <string name="faq">"सामान्य प्रश्न"</string>
+    <string name="add_all_to_bag">"सभी को बैग में जोड़ें"</string>
+    <string name="deliver_to">"उसे देदो"</string>
+    <string name="standard_delivery">"मानक वितरण"</string>
+    <string name="fast_delivery">"तेजी से वितरण"</string>
+    <string name="_4_5_dayd_from_today_includiv_sat_sun">"आज से 4-5 दिन। \ n * शनि-सूर्य को शामिल करें"</string>
+    <string name="one_day_delivery">"एक दिन डिलीवरी \ n सभी दिन।"</string>
+    <string name="free">"मुक्त"</string>
+    <string name="delivery_method">"डिलिवरी विधि"</string>
+    <string name="review_order">"अादेश का पुनः निरिक्षण"</string>
+
+
+    <string name="shipping">"शिपिंग"</string>
+    <string name="payment">"भुगतान"</string>
+    <string name="complite">"complite"</string>
+    <string name="visa">"वीसा"</string>
+    <string name="signature">"हस्ताक्षर"</string>
+    <string name="card_number_1">"1234 4567 8456 5489"</string>
+    <string name="your_card">"तुम्हारा कार्ड"</string>
+    <string name="get_5_off_with_buzz_credit_card">"बज़ क्रेडिट कार्ड के साथ 5% ओएफएफ प्राप्त करें"</string>
+    <string name="process">"प्रक्रिया"</string>
+    <string name="your_order_will_be_shipped_to">"आपके आदेश को भेज दिया जाएगा"</string>
+    <string name="home_address">"घर का पता"</string>
+    <string name="by_net_banking">"नेट बैंकिंग द्वारा"</string>
+    <string name="order_made_on">"आदेश पर बनाया:"</string>
+    <string name="_12th_january_5_27_pm">"12 जनवरी, शाम 5:27 बजे"</string>
+    <string name="order_status">"आदेश की स्थिति"</string>
+    <string name="shipping_is_under_process">"शिपिंग की प्रक्रिया चल रही है।"</string>
+    <string name="congratulations">"बधाई हो!"</string>
+    <string name="thank_you_for_shopping_from_us">"हमसे खरीदारी करने के लिए धन्यवाद।"</string>
+    <string name="your_order_will_be_delivered_by_17th_january">"आपका ऑर्डर 17 जनवरी तक दिया जाएगा।"</string>
+    <string name="continue_shopping">"खरीदारी जारी रखें"</string>
+    <string name="in_wishlist">"विशलिस्ट में"</string>
+    <string name="added">"जोड़ा गया"</string>
+    <string name="order_details">"ऑर्डर का विवरण"</string>
+    <string name="_17_january">"17 जनवरी"</string>
+    <string name="shipped_to">"को भेजा गया:"</string>
+    <string name="delivered">"पहुंचा दिया"</string>
+    <string name="_17_01_2019">"17/01/2019"</string>
+    <string name="_19_01_2019">"19/01/2019"</string>
+    <string name="in_afternoon">"दोपहर में"</string>
+    <string name="write_your_feedback">"अपनी प्रतिक्रिया लिखें |"</string>
+    <string name="description_data">"लोरम इप्सम प्रिंटिंग और टाइपसेटिंग उद्योग का केवल डमी टेक्स्ट है। प्रिंटिंग और टाइपिंग इंडस्ट्री इलेक्ट्रॉनिक टाइपिंग का डमी टेक्स्ट, शेष अनिवार्य रूप से अपरिवर्तित है। यह 1960 में लोरम इप्सम मार्ग से युक्त लेट्रसेट शीट के विमोचन के साथ लोकप्रिय हुआ था, और हाल ही में डेस्कटॉप प्रकाशन सॉफ्टवेयर के साथ हम इसका उपयोग क्यों करते हैं? यह एक लंबे समय से स्थापित तथ्य है कि एक पाठक विचलित हो जाएगा।"</string>
+    <string name="notification">" सभी अधिसूचना"</string>
+    <string name="language">"भाषा"</string>
+
+
+    <!-- Category listing   -->
+    <string-array name="category">
+        <item>"चारा"</item>
+        <item>"श्रेणियाँ"</item>
+        <item>"आपका बैग"</item>
+        <item>"लेखा"</item>
+    </string-array>
+
+
+    <!-- Sub Category listing   -->
+    <string-array name="sub_category">
+        <item>"विशेष रुप से प्रदर्शित"</item>
+        <item>"एथनिक वियर"</item>
+        <item>"वेनस्टर्न वियर"</item>
+        <item>"फ्यूजन पहनें"</item>
+    </string-array>
+
+    <!-- Dummy Data   -->
+    <string name="product_a">"महिला गुलाबी सिल्ड फर"</string>
+    <string name="product_b">"सफेद धारीदार टी-शर्ट"</string>
+    <string name="product_c">"मिस चेस राउंड"</string>
+    <string name="product_d">"लाल शॉर्ट्स को बंदरगाह करना चाहिए"</string>
+    <string name="product_e">"मस्तक के कटोरे"</string>
+    <string name="product_f">"ड्रेस बरी सामने खुला"</string>
+    <string name="product_g">"महिला गुलाबी सिल्ड फर"</string>
+    <string name="product_h">"मिस चेस राउंड"</string>
+    <string name="product_i">"मस्तक के कटोरे"</string>
+    <string name="cat_a">"महिलाओं"</string>
+    <string name="cat_b">"पुरुषों"</string>
+    <string name="cat_c">"बच्चे"</string>
+    <string name="cat_d">"&lt;! [CDATA [होम एंड लिविंग"</string>
+    <string name="cat_e">"गैजेट्स"</string>
+    <string name="credit_a">"वीज़ा"</string>
+    <string name="jems_le">"जेम्स ली"</string>
+    <string name="credit_b">"RuPay"</string>
+    <string name="sub_a">"कपड़े पहनने का तरीका"</string>
+    <string name="sub_b">"पैर में पहनने का कपड़ा"</string>
+    <string name="sub_c">"सामान"</string>
+    <string name="roy">"रॉय"</string>
+    <string name="loren">"लोरम इप्सम डोलर अमेट, फेलिस एरोस एटिअम एरोस फेसेलस मोलेस्टी, लेक्टस urna pellentesque vivamus ut, ac sem lorem posuere vivamus, non ut astad ut mauris, suscipit kodo ornare odio। नयतितितुबस दरोल। डिक्टम यूआर मोलिस क्विस एगेट वेनेटिस। फेसेलस टैक्टी एलीमेंट डोनेक एसी आर्कु लक्टस, एक्सीमसन मालसुआडा, पार्टिकुलर एचसी मौरिस सेड सेरेसिसी, लियोरो क्विस करैबिटुर डिस, लिगुला ओरसी एनिम प्रोम एमेट। सेड अल्ट्रैसी"</string>
+    <string name="ponting">"पोंटिंग"</string>
+    <string name="smith">"लोहार"</string>
+    <string name="qty_one">"मात्रा: १"</string>
+    <string name="cart_a">"वेरो महिला ब्लेज़र"</string>
+    <string name="cart_b">"महिला गुलाबी ठोस शर्ट ड्रेस"</string>
+    <string name="cart_c">"महिला नियमित रूप से शॉर्ट्स"</string>
+    <string name="cart_d">"महिला अनारकली कुर्ता"</string>
+    <string name="cart_e">"महिला सॉलिड बाइकर जैकेट"</string>
+    <string name="cart_f">"प्रिंटेड शीथ ड्रेस"</string>
+    <string name="slimfit">"स्लिम फिट"</string>
+    <string name="color_yello">"पीला"</string>
+    <string name="color_light_pink">"हल्का गुलाबी"</string>
+    <string name="color_black">"काली"</string>
+    <string name="color_pink_white">"गुलाबी व्हाइट"</string>
+    <string name="color_bron">"भूरा"</string>
+    <string name="order_date_13_jan">"13 जनवरी"</string>
+    <string name="order_date_2_jan">"2 जनवरी"</string>
+    <string name="order_date_18_jan">"१ January जनवरी"</string>
+    <string name="order_date_15_jan">"5 मार्च"</string>
+    <string name="order_date_19_jan">"19 मार्च"</string>
+    <string name="order_status_pending">"अपूर्ण"</string>
+    <string name="order_status_cancel">"रद्द करना"</string>
+    <string name="order_status_return">"वापसी"</string>
+    <string name="order_status_delivery">"वितरण"</string>
+    <string name="add_a">"ग्रीनलैंड हंस एग्देसवेज 29 \ n PO बॉक्स 1615 \ n 3900 Nuuk \ n"</string>
+    <string name="add_b">"हंस एगेदेसवेज 29 \ n पीओ बॉक्स 1615 \ n 3900 नुउक \ ग्रीनलैंड"</string>
+    <string name="add_home">"होम"</string>
+    <string name="add_office">"कार्यालय"</string>
+    <string name="store_des_a">"एक अल्फा एंटरप्राइज।"</string>
+    <string name="store_des_b">"ज़ैक इंटरनेशनल।"</string>
+    <string name="store_des_c">"इन्स्टाइल स्टोर।"</string>
+    <string name="store_des_d">"ज़ोटवेयर इंटरनेशनल।"</string>
+    <string name="store_des_e">"&lt;! [CDATA [Groovestreet &amp; Co"</string>
+    <string name="store_des_f">"डॉनवेयर ट्रेड्स।"</string>
+    <string name="store_des_g">"एसएल इंटरनेशनल।"</string>
+    <string name="store_des_h">"वेयरफेज़ प्राइवेट लिमिटेड"</string>
+    <string name="store_des_i">"&lt;! [CDATA [Groovestreet &amp; Co"</string>
+    <string name="store_name_a">"सभी फैशिन स्टोर"</string>
+    <string name="store_name_b">"ज़ैक ट्रेंड्स"</string>
+    <string name="store_name_c">"इन्स्टाइल नेटवर्क"</string>
+    <string name="store_name_d">"ज़ोटवेयर एंटरप्राइज"</string>
+    <string name="store_name_e">"पतली गली"</string>
+    <string name="store_name_f">"Donware"</string>
+    <string name="store_name_g">"Statholdings"</string>
+    <string name="store_name_h">"Warephase"</string>
+    <string name="store_name_i">"पतली गली"</string>
+    <string name="notification_des">"हे एमिली, सुपर सेल में सर्वश्रेष्ठ ऑफ़र और सौदों का लाभ प्राप्त करें! अगले 2 घंटों में बिक्री शुरू कर दी जाएगी! 24 घंटे में बंद होगी बिक्री!"</string>
+    <string name="notification_name_a">"सपर बिक्री 2 घंटे में शुरू होती है"</string>
+    <string name="notification_name_b">"स्टॉक में आज आपकी विशलिस्ट आइटम!"</string>
+    <string name="notification_name_c">"आपका आदेश भेज दिया गया है!"</string>
+    <string name="notification_name_d">"स्टॉक में आज आपकी विशलिस्ट आइटम!"</string>
+    <string name="notification_name_e">"आपका आदेश भेज दिया गया है!"</string>
+    <string name="notification_name_f">"नया साल मुबारक हो!"</string>
+    <string name="notification_name_g">"&lt;! [CDATA [कपड़े और स्टाइल में 20% की छूट!"</string>
+    <string name="notification_name_i">"&lt;! [CDATA [कपड़े और स्टाइल में 20% की छूट!"</string>
+    <string name="notification_date_today">"आज"</string>
+    <string name="notification_date_yesterday">"बिता कल"</string>
+
+
+
+</resources>

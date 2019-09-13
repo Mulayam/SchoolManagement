@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="forgotViewModel"
+            type="com.demomvvm.school.mvvm.forgot.ForgotViewModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/activity_llMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_login_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="start"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:src="@drawable/ic_app_icon_new" />
+
+
+
+            <com.demomvvm.school.customecomponent.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reset_your_password"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_21sdp"
+                android:textStyle="italic"
+                app:font_name="RobotoThinItalic.ttf" />
+
+
+            <com.demomvvm.school.customecomponent.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sendt_code"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/_14sdp"
+                app:font_name="RobotoThinItalic.ttf" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:orientation="vertical">
+
+                <com.demomvvm.school.customecomponent.CustomEdittext
+                    android:id="@+id/activity_forgotPass_etEmail"
+                    style="@style/editTextStyle_ganaral"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:hint="@string/lbl_email"
+                    android:inputType="textEmailAddress"
+                    app:font_name="RobotoLight.ttf" />
+
+                <com.demomvvm.school.customecomponent.CustomTextView
+                    android:id="@+id/activity_forgotPass_tvsubmit"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:background="@drawable/backgound_button"
+                    android:onClick="@{forgotViewModel::onClickForgot}"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    app:font_name="RobotoMedium.ttf" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <com.demomvvm.school.customecomponent.CustomTextView
+            android:id="@+id/activity_forgotPass_tvLogin"
+            style="@style/textStyle"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/backgound_button_signup"
+            android:onClick="@{forgotViewModel::onClickLogin}"
+            android:text="@string/str_sign_in"
+            app:font_name="RobotoMedium.ttf" />
+
+
+    </LinearLayout>
+</layout>

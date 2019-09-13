@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--New Color -->
+    <color name="colorPrimary">#FF637D</color>
+    <color name="colorPrimaryDark">#F4647C</color>
+    <color name="colorAccent">#F4647C</color>
+
+
+    <color name="color_white">#FEFEFE</color>
+    <color name="color_gray">#999999</color>
+    <color name="color_pink">#FF6881</color>
+    <color name="color_blue">#4A69B7</color>
+    <color name="color_gray_bg">#E1E1E1</color>
+    <color name="color_text">#3E3E3E</color>
+    <color name="color_black">#000000</color>
+    <color name="ripal_color">#64b5f6</color>
+    <color name="red">#E80000</color>
+    <color name="row_view">#D7D7D7</color>
+
+    <color name="facebook">#303F9F</color>
+    <color name="white">#ffffff</color>
+    <color name="yellow">#FFA102</color>
+    <color name="colorsignup">#94DC7181</color>
+    <color name="google">#E04108</color>
+
+
+    <color name="first_slide_background">#E91E63</color>
+    <color name="first_slide_buttons">#880E4F</color>
+
+    <color name="second_slide_background">#9C27B0</color>
+    <color name="second_slide_buttons">#4A148C</color>
+
+    <color name="third_slide_background">#009688</color>
+    <color name="third_slide_buttons">#004D40</color>
+
+    <color name="fourth_slide_background">#795548</color>
+    <color name="fourth_slide_buttons">#3E2723</color>
+
+    <color name="custom_slide_background">#3F51B5</color>
+    <color name="custom_slide_buttons">#1A237E</color>
+    <color name="orange">#e94f12</color>
+    <color name="hintColor">#303030</color>
+    <color name="textColor">#303030</color>
+
+    <color name="black">#000000</color>
+    <color name="gray">#a7a5a5</color>
+    <color name="twitter">#23C4FF</color>
+    <color name="bottom_bar_unselect">#272727</color>
+    <color name="teal">#009688</color>
+    <color name="offBlack">#7B7B7B</color>
+    <color name="rateus_bg_color">#e3e3e3</color>
+    <color name="bg_color">#ECECEC</color>
+    <color name="fragment_review_pink_text_color">#E93671</color>
+    <color name="fragment_row_store_bg_color">#85000000</color>
+    <color name="row_store_offer_info">#cccccc</color>
+    <color name="bg_color_light_grey">#CECECE</color>
+    <color name="bg_view_color_light_grey">#DCDCDC</color>
+    <color name="light_grey_transperent">#46000000</color>
+    <color name="pink">#F85D8F</color>
+
+
+
+    <!--Splash Screen-->
+    <item name="splash_background" type="color">@color/colorPrimary</item>
+
+
+
+    <!-- Font Color -->
+    <color name="font_white">#FFFFFF</color>
+    <color name="change_btn_color">#ff014571</color>
+
+    <item name="blue" type="color">#FF33B5E5</item>
+    <item name="purple" type="color">#FFAA66CC</item>
+    <item name="darkblue" type="color">#FF0099CC</item>
+    <item name="darkpurple" type="color">#FF9933CC</item>
+    <item name="darkgreen" type="color">#FF669900</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <color name="accent">#FFFFFF</color>
+    <color name="collection_row_view">#ff813553</color>
+    <color name="about_color">#454355</color>
+
+
+    <!-- Chart Font -->
+    <color name="chart_linecolor">#B0C4D0</color>
+
+    <color name="forgot_link_color">#8D97A0</color>
+    <color name="create_acc_link_color">#273745</color>
+    <color name="color_rectangle_background">#b2b2b2</color>
+    <color name="popup_blue">#157efb</color>
+    <color name="rippelColor">#0099CC</color>
+    <color name="floting_sheet_bg_color">#e8e8e8</color>
+    <color name="bookservice_bg_color">#E3EAEF</color>
+
+    <color name="floting_bg_color">#f64c4c</color>
+    <color name="text_color">#F2F2F2</color>
+    <color name="location_tv_text_color">#988795</color>
+    <color name="km_away_color">#898795</color>
+    <color name="light_transparent">#16000000</color>
+    <color name="dark_transparent">#24000000</color>
+    <color name="bg_offer">#26FF6D86</color>
+    <color name="price_color">#30A062</color>
+    <color name="service_row_bg_color">#F4F4F4</color>
+    <color name="payment_lbl">#FF6A83</color>
+    <color name="payment_total">#FF6C85</color>
+    <color name="payment_status">#3EA969</color>
+    <color name="bookiing_booked_bg_color">#DAFFEB</color>
+    <color name="bookiing_booked_txt_color">#6AD199</color>
+    <color name="bookiing_cancel_txt_color">#FF5F5F</color>
+    <color name="bookiing_cancel_bg_color">#FEDEDE</color>
+    <color name="bookiing_complite_txt_color">#82B7FF</color>
+    <color name="bookiing_complite_bg_color">#EBF3FF</color>
+    <color name="review_border_color">#C2C0C0</color>
+
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="registerViewModel"
+            type="com.demomvvm.school.mvvm.register.RegisterViewModel" />
+    </data>
+
+
+    <LinearLayout
+        android:id="@+id/activity_llmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fillViewport="true"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <com.demomvvm.school.customecomponent.CustomTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Register"
+                            android:textColor="@color/color_black"
+                            android:textSize="@dimen/_25sdp"
+                            android:textStyle="italic"
+                            android:visibility="visible"
+                            android:textAlignment="center"
+                            app:font_name="RobotoThinItalic.ttf" />
+
+
+                        <com.demomvvm.school.customecomponent.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/a_new_account"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/_24sdp"
+                            android:textStyle="italic"
+                            android:visibility="gone"
+                            app:font_name="RobotoThinItalic.ttf" />
+
+                    </LinearLayout>
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/activity_register_etSchoolCode"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_school_code"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/activity_register_etSchoolName"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_school_name"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomSpinner
+                        android:id="@+id/activity_register_spSchoolCategory"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        app:font_name="RobotoLight.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomSpinner
+                        android:id="@+id/activity_register_spSchoolManagement"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:textAlignment="viewStart"
+                        app:font_name="Roboto-Light.ttf" />
+
+                    <com.demomvvm.school.customecomponent.CustomSpinner
+                        android:id="@+id/activity_register_spState"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:textAlignment="viewStart"
+                        app:font_name="Roboto-Light.ttf" />
+
+
+                    <com.demomvvm.school.customecomponent.CustomSpinner
+                        android:id="@+id/activity_register_spDistrict"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:textAlignment="viewStart"
+                        app:font_name="Roboto-Light.ttf" />
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/activity_register_etSchoolAddress"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_address"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+                    <com.demomvvm.school.customecomponent.CustomEdittext
+                        android:id="@+id/activity_register_etSchoolEmail"
+                        style="@style/editTextStyle_ganaral"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:hint="@string/lbl_email"
+                        android:inputType="text"
+                        app:font_name="RobotoLight.ttf" />
+
+                    <com.demomvvm.school.customecomponent.CustomTextView
+                        android:id="@+id/activity_register_tvSignup"
+                        style="@style/textStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@drawable/backgound_button"
+                        android:onClick="@{registerViewModel::onClickRegister}"
+                        android:text="@string/str_sign_up"
+                        android:textAllCaps="false"
+                        app:font_name="RobotoMedium.ttf" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</layout>
